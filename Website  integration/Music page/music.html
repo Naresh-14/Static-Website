@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./music.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container">
+            <div class="music-home-container d-flex flex-column justify-content-center">
+                <div class="music-home-card ">
+                    <h1 class="music-heading">Sleep Music</h1>
+                    <p class="music-para">Soothing bedtime music to help you fall into a
+                        deep and natural sleep
+                    </p>
+                </div>
+            </div>
+
+            <div class="night-island-container">
+                <div class="night-island-card d-flex flex-column justify-content-center">
+                    <div>
+                        <h1 class="night-island-heading">Night Island</h1>
+                    </div>
+                </div>
+                <div class="night-content">
+                    <p class="night-para">
+                        Non-stop 8-hour mixes of our most popular sleep audio
+                    </p>
+                    <button class="btn btn-primary" onclick="display('sectionNight')">Get started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionNight">
+        <div class="bg-container">
+            <div class="moon-sleep-card">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="img w-100" />
+            </div>
+            <div class="night-island-content-card">
+                <div class="night-island-content-sub-card">
+                    <h1 class="night-island-card-heading">
+                        Night Island
+                    </h1>
+                    <p class="night-island-card-para">
+                        Ease the mind into a restful night's sleep with these deep, amblent tones.
+                    </p>
+                    <p class="night-island-card-para">
+                        45 MIN SLEEP MUSIC
+                    </p>
+                </div>
+                <h1 class="night-island-card-heading2">Related</h1>
+                <div class='d-flex flex-row'>
+                    <div class="Related-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="related-img " />
+                        <h1 class="related-heading">Moon clouds</h1>
+                        <p class="night-island-card-para">55 MIN SLEEP MUSIC</p>
+                    </div>
+                    <div class="Related-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="related-img " />
+                        <h1 class="related-heading">Sweet Sleep</h1>
+                        <p class="night-island-card-para">60 MIN SLEEP MUSIC</p>
+                    </div>
+
+                </div>
+            </div>
+            <button class="btn btn-primary button" onclick="display('sectionHome')">
+                Back
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

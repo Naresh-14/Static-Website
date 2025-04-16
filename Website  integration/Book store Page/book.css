@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #1b1b1b;
+    background-size: cover;
+    padding: 20px;
+}
+
+.book-store-heading {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Bree Serif';
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.book-store-card {
+    background-color: #e6f6ff;
+    border-radius: 10px;
+}
+
+.apj-img {
+    width: 160px;
+    height: 200px;
+}
+
+.book-store-content {
+    padding: 15px;
+}
+
+.book-store-content-heading {
+    font-size: 18px;
+    font-family: 'Bree Serif';
+    color: #183b56;
+}
+
+.book-store-content-para {
+    font-size: 16px;
+    font-family: 'Bree Serif';
+    color: #06070d;
+}
+
+.book-store-content-description {
+    color: #9aa5b1;
+    font-size: 15px;
+    font-family: 'Bree Serif';
+}
+
+.books-heading {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.recomm-book-card {
+    margin-bottom: 10px;
+}
+
+.recomm-book-content {
+    margin-left: 10px;
+}
+
+.img {
+    width: 110px;
+    height: 150px;
+}
+
+.recomm-book-heading {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+}
+
+.recomm-book-para {
+    color: #9aa5b1;
+    font-size: 16px;
+    font-family: 'Bree Serif';
+}
+
+.button {
+    font-size: 14px;
+}
+
+.book-deatils-container {
+    text-align: center;
+}
+
+.image {
+    width: 50vw;
+    height: 50vh;
+}
+
+.book-deatils-heading {
+    font-size: 26px;
+    font-family: 'Bree Serif';
+    font-weight: 500;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.book-deatils-para {
+    color: #9aa5b1;
+    font-size: 13px;
+    font-family: 'Bree Serif';
+}
+
+.book-deatils-paragraph {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+}
+
+.button-card {
+    text-align: center;
+}
+
+.button-back {
+    color: #06070d;
+    font-size: 14px;
+}
+
+.button-buy {
+    font-size: 14px;
+}

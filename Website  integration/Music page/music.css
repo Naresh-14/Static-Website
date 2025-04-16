@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #03174c;
+    background-size: cover;
+}
+
+.music-home-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png');
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+}
+
+.music-heading {
+    font-size: 28px;
+    font-family: 'Bree Serif';
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.music-para {
+    font-size: 16px;
+    font-family: 'Bree Serif';
+    color: #ffffff;
+}
+
+.night-island-container {
+    padding: 25px;
+}
+
+.night-island-card {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png');
+    background-size: cover;
+    height: 25vh;
+    margin-bottom: 5px;
+}
+
+.night-island-heading {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    font-family: 'Bree Serif';
+    color: #ffe7bf;
+}
+
+.night-content {
+    text-align: center;
+}
+
+.night-para {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Bree Serif';
+}
+
+.btn {
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Bree Serif';
+    width: 130px;
+    background-color: #8e97fd;
+}
+
+.night-island-content-card {
+    padding: 20px;
+}
+
+.night-island-card-heading {
+    font-size: 24px;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.night-island-card-para {
+    font-size: 14px;
+    font-family: 'Bree Serif';
+    color: #98a1bd;
+}
+
+.night-island-card-heading2 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+}
+
+.related-img {
+    width: 150px;
+    height: 100px;
+}
+
+.related-heading {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Bree Serif';
+}
+
+.Related-card {
+    margin-right: 10px;
+}
+
+.button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./book.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container">
+            <h1 class="book-store-heading">Popular Book</h1>
+            <div class="book-store-card d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="apj-img" />
+                <div class="book-store-content">
+                    <h1 class="book-store-content-heading">Wings of Fire</h1>
+                    <p class="book-store-content-para">An Autobiography of Abdul Kalam</p>
+                    <p class="book-store-content-description">by Arun Tiwari</p>
+                    <button class="btn btn-primary" onclick="display('sectionApj')">Read Now</button>
+                </div>
+            </div>
+            <h1 class="books-heading">
+                Recommended Books
+            </h1>
+            <div class="recomm-book-card">
+                <div class="recomm-book-card d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="img" />
+                    <div class="recomm-book-content">
+                        <h1 class="recomm-book-heading">The 3 mistakes of my life</h1>
+                        <p class="recomm-book-para">Indian author <br /> by
+                            by Chetan Bhagat
+                        </p>
+                        <button class="btn btn-primary button" onclick="display('sectionChetan')">Read Now</button>
+                    </div>
+                </div>
+                <div class="recomm-book-card d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="img" />
+                    <div class="recomm-book-content">
+                        <h1 class="recomm-book-heading">Harry Potter</h1>
+                        <p class="recomm-book-para">and the socrcerer's Stone <br />
+                            by J.K.Rowling
+                        </p>
+                        <button class="btn btn-primary button" onclick="display('sectionHarry')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionApj">
+        <div class="bg-container">
+            <div class="book-deatils-container">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="image" />
+                <h1 class="book-deatils-heading">
+                    Wings of Fire
+                </h1>
+                <p class="book-deatils-para">by Arun Tiwari</p>
+            </div>
+            <p class=" book-deatils-paragraph">
+                Every common man who by his sheer frit and hard work achieves success should share his story with
+                the rest for they may find inspiration and streangth to go on, in this
+                story. The 'Wings of Fire' is one such autobiography by
+                visionary scientist Dr.APJ Abdul Kalam, who from very
+                humble beginings rose to be the president of india. The book is full of insights, personal moments and lift
+                experiences of Dr.Kalam. It gives us an understanding on his journey of success.
+            </p>
+            <div class="button-card">
+                <button class="btn btn-warning button-back" onclick="display('sectionHome')">Back</button>
+                <button class="btn btn-primary button-buy">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionChetan">
+        <div class="bg-container">
+            <div class="book-deatils-container">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="image" />
+                <h1 class="book-deatils-heading">
+                    The 3 mistakes of my life
+                </h1>
+                <p class="book-deatils-para">by Chetan Bhagat</p>
+            </div>
+            <p class=" book-deatils-paragraph">
+                The 3 mistakes of my life is the third novel written by
+                eminent Indian Author Chetan Bhagat. Based on cricket,
+                business and religion, the novel is ser aginst the
+                backdrop of beautiful city Ahmedabad. Revolving around
+                three young indian boys Oml, Ishaan and Govind, the
+                book goes on to narrate how the three are trying are trying their best to make ends with meet in the city. Based on real events,
+                the book starts with a dramatic twist, where Bhagat is
+                reading on e-mail sent by some young person Govind.
+            </p>
+            <div class="button-card">
+                <button class="btn btn-warning button-back" onclick="display('sectionHome')">Back</button>
+                <button class="btn btn-primary button-buy">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionHarry">
+        <div class="bg-container">
+            <div class="book-deatils-container">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="image" />
+                <h1 class="book-deatils-heading">
+                    Harry Potter
+                </h1>
+                <p class="book-deatils-para">by J.K.Revolving</p>
+            </div>
+            <p class=" book-deatils-paragraph">
+                Harry Potter is the third novel written by
+                eminent Indian Author Chetan Bhagat. Based on cricket,
+                business and religion, the novel is ser aginst the
+                backdrop of beautiful city Ahmedabad. Revolving around
+                three young indian boys Oml, Ishaan and Govind, the
+                book goes on to narrate how the three are trying are trying their best to make ends with meet in the city. Based on real events,
+                the book starts with a dramatic twist, where Bhagat is
+                reading on e-mail sent by some young person Govind.
+            </p>
+            <div class="button-card">
+                <button class="btn btn-warning button-back" onclick="display('sectionHome')">Back</button>
+                <button class="btn btn-primary button-buy">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
